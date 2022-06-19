@@ -8,7 +8,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "19810037"))
 API_HASH = getenv("API_HASH", "b150fc3001853f71e667ad1fd5b4e9de")
 BOT_TOKEN = getenv("BOT_TOKEN", "5414874029:AAG-r8v_8HHItL9iatcOncC_GwpfpdZZYxc")
-SESSION_NAME = getenv("SESSION_NAME", "BAAacqTIEQDQv6sxW1PlFDb8BMsWEqWYRs-UANeM7OJB6VVq5kA1hr8W-hBlNHspJ_6Ojy9GO1PCyglfZozm0kx3une5JEIhv4kADdJ2ZXjoipxKj7vk92R2Wn2_K9QO_JgQRSZcynrbfSay2mYcDHtftlRnqEHaLVK7DoR7VO-2t8WGYyaFGAfIFsQjjPLqxu8sAqyPybmpOZkpiIAOZ_w-QfRAT-Q_6ss-JO19BRQDN2WOZo_sloAR3KGTeMyzdLbw-euyqTF1mFtAOKboepTfzNnklmfYKCCWGCbzqGFBuup72Cp_71bGfKEsIlM0ijTLtRoOsdqgGcnBkLtD5SIPf-J2PQA")
+SESSION_NAME = getenv("SESSION_NAME", "BAA3SgvCTc352UOx9iBjnQsREJqJN_DF1VXfGU-BqtqpbUYO1VHjQYYNJAzG5j_CQPAzrv8vQF6hFupDhwoQ7MDJ7SaqS3s-sBW-cVi4KVCZqrnzDXJ3CfmT4gxQKiMviny3xaygo-hUQNFADWVXzQZlpQdYyCloJ-6HjaOT5DiYPnVQsLg_0pA4qioyaFAglyPEcyRdhaUD2wY9cLFcvClXY4ZRgqhuOZFCulADAzUP4vy1wPCbd4xl7JKOzSA8so-fCqjG5kLKzcZufNqjjxzg0td58JrOVYySdA6p6kBPhXb1OPhWN1hEdlvKQVMtSw_W4GQe3fXhjh95H5F7ky6_AAAAAH_idj0A")
 
 # mandatory vars
 BOT_NAME = getenv("BOT_NAME", "𝐬𝐞𝐦𝐨 𝐦𝐢𝐮𝐬𝐜 ☕🌿")
