@@ -5,25 +5,25 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "19810037"))
-API_HASH = getenv("API_HASH", "b150fc3001853f71e667ad1fd5b4e9de")
-BOT_TOKEN = getenv("BOT_TOKEN", "5414874029:AAG-r8v_8HHItL9iatcOncC_GwpfpdZZYxc")
-SESSION_NAME = getenv("SESSION_NAME", "BAA3SgvCTc352UOx9iBjnQsREJqJN_DF1VXfGU-BqtqpbUYO1VHjQYYNJAzG5j_CQPAzrv8vQF6hFupDhwoQ7MDJ7SaqS3s-sBW-cVi4KVCZqrnzDXJ3CfmT4gxQKiMviny3xaygo-hUQNFADWVXzQZlpQdYyCloJ-6HjaOT5DiYPnVQsLg_0pA4qioyaFAglyPEcyRdhaUD2wY9cLFcvClXY4ZRgqhuOZFCulADAzUP4vy1wPCbd4xl7JKOzSA8so-fCqjG5kLKzcZufNqjjxzg0td58JrOVYySdA6p6kBPhXb1OPhWN1hEdlvKQVMtSw_W4GQe3fXhjh95H5F7ky6_AAAAAH_idj0A")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
-BOT_NAME = getenv("BOT_NAME", "𝐬𝐞𝐦𝐨 𝐦𝐢𝐮𝐬𝐜 ☕🌿")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "S_E_M_O_E_L_K_B_E_R")
-ALIVE_NAME = getenv("ALIVE_NAME", "SeMo")
-BOT_USERNAME = getenv("BOT_USERNAME", "SE_MO98_BOT")
-ASSISTANT_USERNAME = getenv("ASSISTANT_USERNAME", "SeMo mIuSc")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SEMOELKBER21/PROOO")
+BOT_NAME = getenv("BOT_NAME", "")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+ALIVE_NAME = getenv("ALIVE_NAME", "")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
+ASSISTANT_USERNAME = getenv("ASSISTANT_USERNAME", "")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "CC_G6")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "RAMAZYAT_SEMO")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
 
 # database, decorators, handlers mandatory vars
-MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://MOHAMEDMUSIC:MOHAMEDMUSIC@cluster0.xda63.mongodb.net/?retryWrites=true&w=majority")
+MONGODB_URL = getenv("")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", '').split())
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5183920797").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5183920797").split()))
